@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar container">
+        <div class="nav-container">
+            <img id="logo" src="assets/logo.png" alt="Logo">
+            
+            <ul class="nav-items">
+                <a href="#">
+                    <li class="nav-item">Home</li>
+                </a>
+
+                <a href="#">
+                    <li class="nav-item">Experience</li>
+                </a>
+
+                <a href="#">
+                    <li class="nav-item">Skills</li>
+                </a>
+                
+                <a href="#">
+                    <li class="nav-item">Projects</li>
+                </a>
+            </ul>
+
+            <i id="menu-btn" class='bx bx-menu'></i>
+            
+        </div>
+    </nav>
+
+    <ul id="mobile-nav-menu">
+        <a href="#">
+            <li class="mob-nav-item">Home</li>
+        </a>
+
+        <a href="#">
+            <li class="mob-nav-item">Experience</li>
+        </a>
+
+        <a href="#">
+            <li class="mob-nav-item">Skills</li>
+        </a>
+        
+        <a href="#">
+            <li class="mob-nav-item">Projects</li>
+        </a>
+    </ul>
+
+    <header class="main-header container">
+        <section class="main-header-left">
+            <div class="main-header-top-text">
+                <span class="header-role">Student<br>Developer</span><br>
+                <span class="header-name">Yoël Makaya</span>
+            </div>
+
+            <button id="download-resume">
+                <i class='bx bxs-download' ></i>
+                Download Resume
+            </button>
+        </section>
+
+        <img id="header-image" src="assets/header-image.jpg" alt="Header Image">
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
