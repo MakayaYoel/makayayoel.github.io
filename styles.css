@@ -21,7 +21,6 @@ a {
 }
 
 body {
-    max-height: 100vh;
     background-color: black;
 }
 
@@ -80,7 +79,9 @@ nav {
 }
 
 #mobile-nav-menu {
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
     z-index: 2;
     margin-top: 75px;
     height: max-content;
@@ -89,7 +90,7 @@ nav {
     float: right;
     display: none;
     flex-direction: column;
-    background-color: #29292946;
+    background-color: #292929;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     margin-bottom: 20px;
@@ -136,6 +137,7 @@ nav {
 
 .main-header {
     margin-top: 250px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -223,6 +225,7 @@ nav {
     .main-header {
         margin-top: 200px;
         justify-content: center;
+        flex-direction: column-reverse;
     }
 
     .main-header-top-text {
@@ -243,17 +246,7 @@ nav {
     }
 
     #header-image {
-        display: none;
-    }
-
-    #portal {
-        display: none;
-    }
-
-    .main-header-socials {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        height: 150px;
     }
 }
 
